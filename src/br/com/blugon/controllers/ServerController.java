@@ -44,7 +44,6 @@ public class ServerController implements Runnable {
 						+ socket.getInetAddress().getHostAddress());
 
 				ClientManager.getInstance().addClient(socket);
-
 			}
 
 		} catch (IOException e) {

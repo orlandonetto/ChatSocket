@@ -49,7 +49,7 @@ public class Mensagem {
 
 	@Override
 	public String toString() {
-		return convertDateToString(date) + "  " + usuario.getNome().toUpperCase() + "  Disse:\n" + msg;
+		return convertDateToString(date) + "  " + usuario.getNome().toUpperCase() + "  Disse: " + msg;
 	}
 
 }

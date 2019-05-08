@@ -59,10 +59,10 @@ public class ClientController {
 
 					while (scanner.hasNextLine()) {
 						String text = scanner.nextLine();
-						
-						if(ScreenManager.getInstance().getCurrentScreen() instanceof ChatScreen)
+
+						if (ScreenManager.getInstance().getCurrentScreen() instanceof ChatScreen)
 							((ChatScreen) ScreenManager.getInstance().getCurrentScreen()).setTextChat(text);
-						
+
 						System.out.println(text);
 					}
 				} catch (IOException e) {
